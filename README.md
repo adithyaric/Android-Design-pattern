@@ -6,3 +6,4 @@
 
 source :
 [PCS Android: #7 Design Pattern](https://www.youtube.com/watch?v=ZH1fhzGjiMg)
+[PCS Android: #8 Rest API](https://www.youtube.com/watch?v=TTjUUpu9fAw)
