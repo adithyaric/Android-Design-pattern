@@ -12,7 +12,7 @@ import com.tokoretro.app.ui.base.BaseAdapter
 class NewsAdapter(val context: Context) : BaseAdapter<News>(R.layout.item_news) {
     override fun onBind(binding: ViewDataBinding?, data: News) {
         val mBinding = binding as ItemNewsBinding
-        Glide.with(context).load(data.poster).into(mBinding.itemPoster)
+        Glide.with(context).load(data.image).into(mBinding.itemPoster)
     }
 
     override fun onClick(binding: ViewDataBinding?, data: News) {

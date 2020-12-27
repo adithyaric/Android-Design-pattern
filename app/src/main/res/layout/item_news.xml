@@ -20,7 +20,7 @@
                 <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:scaleType="centerCrop"
+
                 android:id="@+id/itemPoster"/>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -33,14 +33,14 @@
                     android:textSize="16sp"
                     android:textColor="@color/black"
                     android:id="@+id/itemJudul"
-                    android:text="@{model.judul}"/>
+                    android:text="@{model.name}"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:textColor="@color/black"
                     android:id="@+id/itemWaktu"
-                    android:text="@{model.waktu}"/>
+                    android:text="@{model.amiiboSeries}"/>
             </LinearLayout>
         </LinearLayout>
 

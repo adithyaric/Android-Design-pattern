@@ -6,7 +6,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface NewsService {
-    @GET("/")
+    @GET("/api/amiibo")
     fun listNews() : Call<NewsList>
 
     @GET("detail/")
